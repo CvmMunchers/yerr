@@ -2035,7 +2035,9 @@ do -- Example UI
 	
 	Tab:AddLabel("Thanks For Using Furk Ultra!")
 	Tab:AddLabel("~ Press Right Shift To Hide GUI ~")
-
+	        Tab:AddButton("Thunder Z", function()
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/ThunderZ-HUB/HUB/main/Script%22))()", true))()
+		end)
 		Tab:AddButton("Tuper Hub", function()
 			loadstring(game:HttpGet('https://raw.githubusercontent.com/TUPERX/TUPERX/Main/MenuBF/README.md'))()
 		end)
